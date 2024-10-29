@@ -1,0 +1,19 @@
+
+
+1. Push är att skicka commits och filer till ett remote repository. T.ex. GitHub. Pull är när man hämtar filerna med commits till sin lokala repository.
+
+
+2. Log är för att se alla dina commits, historiken av alla ändringar du gjort i dina filer. 
+Andra ska kunna läsa vilka ändringar du gjort och för att kunna gå tillbaka när programmen funkade om det uppkommer en bugg. 
+Status är för att se vad du har addat och vad som behöver vara commitat till ditt repository. Där kan du se om du missat att ladda upp något som du ändrat på.
+
+
+
+3. Git branch är när du jobbar på en annan del än main. När du till exemepel jobbar på en bugg eller utvecklar någon anna del av programmet och inte vill påverka allt. 
+Detta gör att man kan isolera delar av sina progrom och provköra dem innan de kopplas ihop. Enkelt att ta bort om det inte skulle funka.
+
+4. git reset använder man för att ändra historiken eller commits. 
+Till exempel kan du ändra din commit med git reset --soft HEAD~1, utan att det påverkar din arbetskatalog.
+git restore förändrar inte historiken, den återställer filerna till den senasre versionen. Om man tillexempel råka ta bort eller vill återställa en tidigare version.
+
+git revert skapar en ny commit och tar bort den senaste. För att inte ta bort historiken.
